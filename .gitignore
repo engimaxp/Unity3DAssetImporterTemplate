@@ -1,2 +1,4 @@
 # Godot 4+ specific ignores
 .godot/
+/Assets
+/unidot_asset_database.res

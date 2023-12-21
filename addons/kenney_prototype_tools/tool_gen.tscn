@@ -1,0 +1,71 @@
+[gd_scene load_steps=15 format=3 uid="uid://bn4ahbc65y07q"]
+
+[ext_resource type="Script" path="res://addons/kenney_prototype_tools/tool_generator.gd" id="1_icvd2"]
+[ext_resource type="Texture2D" uid="uid://2ajvyqsgtmxg" path="res://addons/kenney_prototype_tools/textures/light/texture_01.png" id="2_6h4dl"]
+[ext_resource type="Texture2D" uid="uid://dsbawcm6w2fbi" path="res://addons/kenney_prototype_tools/textures/light/texture_02.png" id="3_12116"]
+[ext_resource type="Texture2D" uid="uid://b0g6flwpmetdi" path="res://addons/kenney_prototype_tools/textures/light/texture_03.png" id="4_f81ro"]
+[ext_resource type="Texture2D" uid="uid://dxkm1pmjyks5i" path="res://addons/kenney_prototype_tools/textures/light/texture_04.png" id="5_a1xqh"]
+[ext_resource type="Texture2D" uid="uid://b65o3pi5340r6" path="res://addons/kenney_prototype_tools/textures/light/texture_05.png" id="6_7kpn5"]
+[ext_resource type="Texture2D" uid="uid://b8fe1iux0bnc4" path="res://addons/kenney_prototype_tools/textures/light/texture_06.png" id="7_bdbfj"]
+[ext_resource type="Texture2D" uid="uid://c8nq55glypfp8" path="res://addons/kenney_prototype_tools/textures/light/texture_07.png" id="8_iyvm7"]
+[ext_resource type="Texture2D" uid="uid://de403w2nnawrs" path="res://addons/kenney_prototype_tools/textures/light/texture_08.png" id="9_dprju"]
+[ext_resource type="Texture2D" uid="uid://ctx4sdccfrnll" path="res://addons/kenney_prototype_tools/textures/light/texture_09.png" id="10_2wdhr"]
+[ext_resource type="Texture2D" uid="uid://cgqnov3jeciey" path="res://addons/kenney_prototype_tools/textures/light/texture_10.png" id="11_uhscx"]
+[ext_resource type="Texture2D" uid="uid://thp2jwq0wvs2" path="res://addons/kenney_prototype_tools/textures/light/texture_11.png" id="12_a2t3a"]
+[ext_resource type="Texture2D" uid="uid://8k5iiq13cnki" path="res://addons/kenney_prototype_tools/textures/light/texture_12.png" id="13_kgc5j"]
+[ext_resource type="Texture2D" uid="uid://cqnua70rykru1" path="res://addons/kenney_prototype_tools/textures/light/texture_13.png" id="14_fjhbm"]
+
+[node name="ToolGen" type="Node"]
+script = ExtResource("1_icvd2")
+
+[node name="Texture01" type="Sprite2D" parent="."]
+position = Vector2(326, 356)
+texture = ExtResource("2_6h4dl")
+
+[node name="Texture02" type="Sprite2D" parent="."]
+position = Vector2(3577, 604)
+texture = ExtResource("3_12116")
+
+[node name="Texture03" type="Sprite2D" parent="."]
+position = Vector2(2650, 1874)
+texture = ExtResource("4_f81ro")
+
+[node name="Texture04" type="Sprite2D" parent="."]
+position = Vector2(1736, -1689)
+texture = ExtResource("5_a1xqh")
+
+[node name="Texture05" type="Sprite2D" parent="."]
+position = Vector2(2631, -762)
+texture = ExtResource("6_7kpn5")
+
+[node name="Texture06" type="Sprite2D" parent="."]
+position = Vector2(421, -1212)
+texture = ExtResource("7_bdbfj")
+
+[node name="Texture07" type="Sprite2D" parent="."]
+position = Vector2(1323, -685)
+texture = ExtResource("8_iyvm7")
+
+[node name="Texture08" type="Sprite2D" parent="."]
+position = Vector2(-887, -698)
+texture = ExtResource("9_dprju")
+
+[node name="Texture09" type="Sprite2D" parent="."]
+position = Vector2(-1211, 508)
+texture = ExtResource("10_2wdhr")
+
+[node name="Texture10" type="Sprite2D" parent="."]
+position = Vector2(1005, 1715)
+texture = ExtResource("11_uhscx")
+
+[node name="Texture11" type="Sprite2D" parent="."]
+position = Vector2(-68, 1892)
+texture = ExtResource("12_a2t3a")
+
+[node name="Texture12" type="Sprite2D" parent="."]
+position = Vector2(-1217, 1626)
+texture = ExtResource("13_kgc5j")
+
+[node name="Texture13" type="Sprite2D" parent="."]
+position = Vector2(2529, 502)
+texture = ExtResource("14_fjhbm")

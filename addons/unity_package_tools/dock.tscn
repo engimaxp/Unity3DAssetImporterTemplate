@@ -1,0 +1,39 @@
+[gd_scene load_steps=2 format=3 uid="uid://x15t88v22gpa"]
+
+[ext_resource type="Script" path="res://addons/unity_package_tools/dock.gd" id="1_75p75"]
+
+[node name="Dock" type="MarginContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 4
+script = ExtResource("1_75p75")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Click Me"
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="VBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="tscn_selected" type="LineEdit" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="TscnSelect" type="Button" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "select file"
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
